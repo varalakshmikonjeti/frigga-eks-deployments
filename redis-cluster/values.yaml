@@ -610,8 +610,8 @@ redis:
       cpu: 50m
       memory: 128Mi
     limits:
-      cpu: 70m
-      memory: 200Mi
+      cpu: 50m
+      memory: 128Mi
   ##
   # resources: {}
   ## @param redis.schedulerName Use an alternate scheduler, e.g. "stork".
