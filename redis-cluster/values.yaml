@@ -717,7 +717,7 @@ redis:
   ## ref: https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/
   ##
   nodeSelector: 
-    intent: "stateful-dev"
+    intent: "frigga"
     # kubernetes.io/hostname: "ip-192-0-75-202.ap-south-1.compute.internal"
   ## @param redis.tolerations Tolerations for Redis&reg; pods assignment
   ## ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
